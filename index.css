@@ -1,0 +1,276 @@
+* {
+
+    color: black;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-image: linear-gradient(180deg,  rgb(204, 4, 204),Pink);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    max-width: 100px;
+    height: 4rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links .nav-link {
+    text-decoration: none;
+}
+
+
+@media (max-width: 680px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav .nav-links {
+        margin-top: 10px;
+    }
+
+    nav .nav-link {
+        margin: 5px 0;
+    }
+}
+
+.row {
+    display: flex;
+    margin-left: 20px;
+}
+
+
+.col-md-12 {
+    flex: 0 0 auto;
+    width: 94%;
+    margin-right: 5%;
+
+
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-clip: border-box;
+    border-radius: 0.2rem;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    min-width: 0;
+    word-wrap: break-word;
+    height: 340px;
+
+}
+
+.cardspacind {
+    margin-top: 10px;
+    box-shadow: 3px 3px 10px #323131;
+    margin-left: 2.6%;
+
+}
+
+.flex-container {
+    display:flex;
+ 
+}
+.flex-container > div {
+    background-color:white;
+    width: 100%;
+    height:10%;
+  }
+.flex-container div img {
+    height: 250px;
+    width: 100%;
+}
+
+@media(max-width: 680px){
+    .flex-container  {
+        flex-direction: column;
+        align-items: flex-start;
+    }  
+     div {
+        margin-top: 10px;
+    }
+    img {
+     margin: 5px 0;
+    }
+    
+}
+
+
+.flex-container-1 {
+    display: flex;
+}
+
+.flex-container-1  #c-1 {
+    margin: 20px;
+    height: 250px;
+    width: 20%;
+  }
+
+  
+  
+  .flex-container-1 #c-1 img {
+    height: 260px;
+    width: 100%;
+}
+
+ @media(max-width: 680px){
+    .flex-container-1  {
+        flex-direction: column;
+        align-items: flex-start;
+    }  
+     div {
+        margin-top: 10px;
+    }
+    img {
+     margin: 5px 0;
+    } 
+    
+}
+
+
+.flex-container-1  #c-2 {
+    margin: 20px;
+    width: 80%;
+  }
+
+ 
+
+ @media(max-width: 680px){
+    .flex-container-2  {
+        flex-direction: column;
+        align-items: flex-start;
+    }  
+     div {
+        margin-top: 10px;
+    }
+   
+} 
+
+.flex-container-2 {
+    display: flex;
+}
+
+.flex-container-2  #c-3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    margin-top:20px;
+  }
+
+.flex-container-3 {
+    display: flex;
+}
+
+.flex-container-3  #c-4 {
+    margin: 20px;
+    width: 80%;
+  }
+
+  .flex-container-3  #c-5 {
+    margin-left: 10px;
+    margin-right:20px;
+    height: 250px;
+    width: 20%;
+  }
+
+  .flex-container-3 #c-5 img {
+    height: 250px;
+    width: 100%;
+
+}
+@media(max-width: 680px){
+    .flex-container-3  {
+        flex-direction: column;
+        align-items: flex-start;
+    }  
+     div {
+        margin-top: 10px;
+    }
+    img {
+     margin: 5px 0;
+    } 
+}
+ .flex-container-4 {
+    display: flex;
+    gap:90px;
+}
+
+.flex-container-4  #c-6 {
+    margin: 20px;
+    width: 5.4%;
+    height:100px;
+}
+
+
+  .flex-container-4 #c-6 img {
+    height: 250px;
+    width: 100%;
+
+}
+
+.flex-container-4 #c-7 img {
+  gap:100px;
+    margin-top:30%;
+
+}
+ .flex-container-4 #c-7 p {
+    margin-left:20px;
+ }
+
+ @media(max-width: 680px){
+    .flex-container-4  {
+        flex-direction: column;
+        align-items: flex-start;
+    }  
+     div {
+        margin-top: 10px;
+    }
+    img {
+     margin: 5px 0;
+    } 
+ }
+
+
+
+
+  footer {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(180deg, Pink, rgb(136, 2, 136));
+    margin-top:10px;
+
+}
+
+.f-about {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+}
+
+.f-social-icons {
+    display: flex;
+}
+
+.f-social-icons img {
+    height: 90px;
+    width: 70px;
+     margin: 1rem 0; 
+}  
